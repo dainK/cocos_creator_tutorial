@@ -122,3 +122,14 @@ p.footer {
 @keyframes animate-stripes {
     0% {background-position: 0 0;} 100% {background-position: 60px 0;}
 }
+
+#GameDiv {
+  width: calc(100vh * (2/3)); /* 세로 3: 가로 2 비율에 맞춰 가로 크기 계산 */
+  height: 100vh; /* 뷰포트의 세로 크기에 맞게 높이 설정 */
+    margin: 0 auto;
+    background: black;
+    position: relative;
+    border: 3px solid black;
+    border-radius: 6px;
+    box-shadow: 0 5px 40px #333
+}
